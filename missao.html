@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão</title>
+    <style>
+        body{
+            background-color: black;
+          }
+        table, th, td{
+            width:1000px;
+            height:50px;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <ul style="color:aliceblue;">
+        <li><a href="educador.html">inicio</a></li>
+        <li><a href="bloom.html">bloom</a></li>
+        <li><a href="verbo.html">verbo</a></li>
+        <li><a href="competencia.html">competência</a></li>
+        <li><a href="etapa.html">etapa</a></li>
+        <li><a href="missao.html">missão</a></li>
+        <li><a href="historia.html">história</a></li>
+    </ul>
+
+    <h1 style="color:aliceblue">Cadastro de Competências</h1>
+    <form>
+
+       
+        <select>
+            <option>Selecione o Nível de Bloom</option>
+            <option>Memorizar</option>
+            <option>Compreender</option>
+            <option>Aplicar</option>
+            <option>Analisar</option>
+            <option>Avaliar</option>
+            <option>Criar</option>
+        </select>
+
+
+    <select>
+        <option>Selecione o nível de força</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+
+    </select>
+    
+
+    
+    <select>
+        <option>Selecione o Tipo</option>
+        <option>Conhecimento</option>
+        <option>Habilidade</option>
+        <option>Atitude</option>
+    </select>
+
+    <form style="color:aliceblue"><br>
+    
+    <input list="verbos" name="verbo" id="verbo" placeholder="Selecione o Verbo">
+
+    <datalist id="verbos">
+        <option value="Listar">
+        <option value="Relembrar">
+        <option value="Reconhecer">
+        <option value="Identificar">
+        <option value="Localizar">
+        <option value="Descrever">
+      </datalist>
+
+      <h1 style="color:aliceblue"></h1>
+      <form>
+  
+          <select>
+            <option>Selecione a Competência </option>
+              <option>Memorizar</option>
+              <option>Compreender</option>
+              <option>Aplicar</option>
+              <option>Analisar</option>
+              <option>Avaliar</option>
+              <option>Criar</option>
+          </select>
+
+          <input type="text" id="nome" placeholder="Digite o titulo da Missão">
+    
+
+</form>
+<br>
+
+<table style="color:aliceblue" >
+    <h1 style="color:aliceblue">Selecione as etapas da missão que deseja:</h1>
+    <tr>
+        <th>Instrução</th>
+        <th>Tipo</th>
+        <th>Ponto</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+        <input type="checkbox" id="missao" name="missao" value="teste">
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+        <input type="checkbox" id="missao" name="missao" value="teste">
+        </td>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+        <input type="checkbox" id="missao" name="missao" value="teste">
+        </td>
+    </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    <input type="checkbox" id="missao" name="missao" value="teste">
+    </td>
+      </tr>
+      
+  </table><br>
+  <input type="submit" value="Cadastrar">
+  
+  <input type="submit" value="Cancelar">
+  
+
+</body>
+</html>
